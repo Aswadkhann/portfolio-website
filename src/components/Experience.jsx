@@ -1,47 +1,53 @@
 import React from 'react'
-
+import css from '../assets/css.png'
+import github from '../assets/github.png'
+import html from '../assets/html.png'
+import javascript from '../assets/javascript.png'
+import nextjs from '../assets/nextjs.png'
+import react from '../assets/react.png'
+import tailwind from '../assets/tailwind.png'
 const Experience = () => {
     const tech = [
         {
             id:1,
             title:'HTML',
-            src:'html.png',
+            src:html,
             style:'shadow-orange-500'
         },
         {
             id:2,
             title:'CSS',
-            src:'css.png',
+            src:css,
             style:'shadow-blue-500'
         },
         {
             id:3,
             title:'JavaScript',
-            src:'javascript.png',
+            src:javascript,
             style:'shadow-yellow-500'
         },
         {
             id:4 ,
             title:'React',
-            src:'react.png',
+            src:react,
             style:'shadow-blue-600'
         },
         {
             id:5,
             title:'Tailwind',
-            src:'tailwind.png',
+            src:tailwind,
             style:'shadow-sky-400'
         },
         {
             id:6,
             title:'NextJs',
-            src:'nextjs.png',
+            src:nextjs,
             style:'shadow-white'
         },
         {
             id:7,
             title:'Github',
-            src:'github.png',
+            src:github,
             style:'shadow-gray-400'
         },
 
