@@ -13,8 +13,7 @@ const Home = () => {
           <div className='flex flex-col justify-center w-full md:w-1/2'>
             <h2 className='text-white text-4xl sm:text-6xl font-bold'>I'm a Full Stack Developer</h2>
             <p className='text-gray-500 py-4 max-w-lg text-justify'>
-              I have experience building and designing web applications.
-              Currently, I am working on web applications with technologies like ReactJS, Tailwind, and Next.js.
+            Passionate junior front-end React developer skilled in creating captivating user experiences. Dedicated to clean code, responsive design, and continuous learning for professional growth.
             </p>
             <div>
               <Link to='projects' smooth duration={500}>
