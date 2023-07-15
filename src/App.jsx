@@ -4,7 +4,7 @@ import Contact from './components/Contact'
 import Experience from './components/Experience'
 import Home from './components/Home'
 import NavBar from './components/NavBar'
-
+import Projects from './components/Projects'
 import SocialLinks from './components/SocialLinks'
 
 export default function App() {
@@ -13,6 +13,7 @@ export default function App() {
     <NavBar/>
     <Home/>
     <About/>
+    <Projects/>
     <Experience/>
     <Contact/>
     <SocialLinks/>
